@@ -1,0 +1,18 @@
+body {
+  background-color: black;
+}
+body .title {
+  text-align: center;
+  color: bisque;
+}
+body .button-container {
+  display: flex;
+  justify-content: space-around;
+}
+body .button-container .button {
+  padding: 15px;
+  border: 2px solid rgb(61, 4, 4);
+  text-align: center;
+  font-size: 17px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}/*# sourceMappingURL=style.css.map */
