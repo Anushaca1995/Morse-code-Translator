@@ -10,11 +10,14 @@
 <body>
     <h1 class="title">Morse Translator</h1>
     <div class="button-container">
-        <button class="button morse-button">Morse Code</button>
+        <button class="button morse-button">Get Morse Code</button>
         <!--button class="button english-button">English Word</button-->
     </div>
-    <div class="translator">
-
+    <form class="input-container">
+        <input type="text" class="text-input" onkeypress="return ValidateData(event);">
+    </form>
+    <div class="translate-container">
+        <p class="translator"></p>
     </div>
     <script src="./js/main.js"></script>
 </body>
