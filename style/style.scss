@@ -8,11 +8,30 @@ body{
         display: flex;
         justify-content: space-around;
         .button{
-            padding: 15px;
+            padding: 10px;
             border: 2px solid rgb(61, 4, 4);
             text-align: center;
             font-size: 17px;
             font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    }
+    .input-container{
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        .text-input{
+            text-align: center;
+            width: 500px;
+            height:100px;
+        }
+    }
+    .translate-container{
+        display: flex;
+        justify-content: center;
+        .translator{
+            color:white;
+            text-align: center;
+            font-size: 40px;
         }
     }
     
