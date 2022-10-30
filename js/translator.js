@@ -36,6 +36,13 @@ const morseData = {
     8: "---..",
     9: "----.",
     0: "-----",
+    ".": "·−·−·−",
+    ",": "--..--",
+    "?": "..--..",
+    "'": ".----.",
+    "!": "−·−·−−",
+    "/": "−··−·"
+
 };
 
 export const ValidateData = (input) => {
@@ -76,7 +83,7 @@ export const getMorse = () => {
     let text = document.querySelector(".text-input").value;
     const translate=document.querySelector(".translator");
     translate.innerHTML=translateArray(text);
-    console.log(translateArray(text));
+    return translateArray(text);
     
 }
 
